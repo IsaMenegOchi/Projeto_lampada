@@ -2,8 +2,8 @@
 
 const lampada = document.getElementById("lampada")
 
-const piscar = document.getElementById("piscar")
-piscar.style.backgroundColor = "#00FF00"
+const piscar = document.getElementById("piscar");
+piscar.style.backgroundColor = "#00FF00";
 
 let idInterval
 
@@ -80,16 +80,16 @@ let idInterval
         if(piscar.textContent == "Piscar"){
             idInterval = setInterval(trocarImagem, 1000);
             piscar.textContent = "Parar"
-            piscar.style.backgroundColor = "#FF0000"
-        
+            piscar.style.backgroundColor = "#FF0000";
         }
+
         else{
             clearInterval(idInterval)
-            piscar.textContent = "Piscar"
-            piscar.style.backgroundColor = "#00FF00"
+            piscar.textContent = "Piscar";
+            piscar.style.backgroundColor = "#00FF00";
         }
     }
- 
+ //colocando cores nos botões
 
 
 
